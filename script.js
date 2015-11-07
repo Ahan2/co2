@@ -12,9 +12,6 @@ window.alert(nCurrent);
 var create = document.getElementById("pop"),innerHTML;
 var res = create.replace("number", nCurrent);
 document.getElementById("pop").innerHTML = res;*/
-while(true){
-
-
 time=setInterval(function(){
 
 nFuture = Math.round(nCurrent * Math.pow(Math.E, (r*t)));
