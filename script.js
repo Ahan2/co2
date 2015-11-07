@@ -13,12 +13,16 @@ var create = document.getElementById("pop"),innerHTML;
 var res = create.replace("number", nCurrent);
 document.getElementById("pop").innerHTML = res;*/
 while(true){
+
 nFuture = Math.round(nCurrent * Math.pow(Math.E, (r*t)));
 
 var difference = nFuture - nCurrent;
 nCurrent = nCurrent + difference;
 var co2 = nCurrent * c2;
-window.alert(co2 + "L");
+
 setTimeout(10000);
 }
 //7378847523, 7378625153 7378625150
+var str = document.getElementById('pop').innerHTML;
+    var res = str.replace("number", co2);
+    document.getElementById('pop').innerHTML = res;
