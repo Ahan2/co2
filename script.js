@@ -1,4 +1,4 @@
-var nCurrent = 7378625150;
+var nCurrent = 7379319032;
 var nFuture;
 
 var r = 0.011;
@@ -12,13 +12,17 @@ window.alert(nCurrent);
 var create = document.getElementById("pop"),innerHTML;
 var res = create.replace("number", nCurrent);
 document.getElementById("pop").innerHTML = res;*/
-while(true){
+time=setInterval(function(){
 nFuture = Math.round(nCurrent * Math.pow(Math.E, (r*t)));
 
 var difference = nFuture - nCurrent;
 nCurrent = nCurrent + difference;
 var co2 = nCurrent * c2;
+//window.alert(co2 + "L");
 window.alert(co2 + "L");
-setTimeout(10000);
+},1000);
+
+function myFunction() {
+    window.alert(co2 + "L");
 }
 //7378847523, 7378625153 7378625150
