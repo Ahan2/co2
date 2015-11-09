@@ -16,9 +16,7 @@ time=setInterval(function(){
 
 nFuture = Math.round(nCurrent * Math.pow(Math.E, (r*t)));
 
-var difference = nFuture - nCurrent;
-nCurrent = nCurrent + difference;
-var co2 = nCurrent * c2;
+var co2 = nFuture * c2;
 //window.alert(co2 + "L");
 window.alert(co2 + "L");
 },1000);
