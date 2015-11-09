@@ -17,6 +17,7 @@ t (time) = The amount of time required to produce a growth in population proport
 ![N=N0e(rt)](http://ahansabharwal.com/co2algorithm.png)
 
 SOURCE(S):
+
 1.http://arachnoid.com/lutusp/populati.html
 
 2. http://answers.google.com/answers/threadview?id=86080
