@@ -4,6 +4,8 @@ Algorithm to calculate the amount of CO2 exhaled by humans in 1 second.
 #How it works
 The program first calculates the world population after 1 second (i.e. the population of humans in 1 second after the current time(t)).
 
+NOTE: The world population in the program is always beginning from a defined value (7379319032), since it is not updating, but this would be easy enough to do. &#128539;
+
 #The agorithm to calculate the population
 Where:
 N0 (initial population) = The population at time t = 0.
