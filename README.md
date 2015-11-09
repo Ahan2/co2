@@ -18,6 +18,6 @@ t (time) = The amount of time required to produce a growth in population proport
 
 SOURCE(S):
 
-1.http://arachnoid.com/lutusp/populati.html
+http://arachnoid.com/lutusp/populati.html
 
-2. http://answers.google.com/answers/threadview?id=86080
+http://answers.google.com/answers/threadview?id=86080
