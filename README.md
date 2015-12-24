@@ -1,5 +1,6 @@
 # co2
 Algorithm to calculate the amount of CO2 exhaled by humans in 1 second.
+See it in actions here: http://ahan2.github.io/co2/ 
 
 #How it works
 The program first calculates the world population after 1 second (i.e. the population of humans in 1 second after the current time(t)).
