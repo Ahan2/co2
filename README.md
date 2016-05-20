@@ -5,7 +5,7 @@ See it in action here: http://ahan2.github.io/co2/
 #How it works
 The program first calculates the world population after 1 second (i.e. the population of humans in 1 second after the current time(t)).
 
-NOTE: The world population in the program currently always begins from a defined value (7380201256), since it is not updating, but this would be easy enough to do. &#128539;
+NOTE: The world population in the program currently always begins from a defined value (7380201256), since it is not being saved, but this would be easy enough to do. 
 
 #The agorithm to calculate the population
 Where:
